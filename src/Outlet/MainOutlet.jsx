@@ -8,20 +8,18 @@ import Sidebar from '../Sidebar'
 const MainOutlet = () => {
     return (
         <>
+            <Navbar />
             <div className="container mx-auto">
-
-                <Navbar />
                 <div className="grid grid-cols-12 ">
                     <div className="col-span-2">
-
                         <Sidebar />
                     </div>
                     <div className="col-span-10 mt-10">
                         <Outlet />
                     </div>
                 </div>
-                <Footer />
             </div>
+            <Footer />
         </>
     )
 }

@@ -15,7 +15,7 @@ const Sidebar = () => {
     return (
         <>
             <div className=" min-h-[85vh] w-80 bg-base-100 border-r border-base-300 flex flex-col p-6">
-                <h2 className="text-2xl font-bold text-center mb-8">Sidebar</h2>
+                <h2 className="text-2xl font-bold text-center mb-8"> Forms Sidebar</h2>
 
                 <div className="flex flex-col gap-3">
 

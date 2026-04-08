@@ -5,7 +5,7 @@ const Home = () => {
 
     return (
         <>
-            <div className="min-h-[85vh] px-10 py-5 flex">
+            <div className="min-h-[80vh] px-10 py-5 flex">
                 
             </div>
         </>
