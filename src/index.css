@@ -1,2 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+input{
+    border: 1px solid black;
+}
