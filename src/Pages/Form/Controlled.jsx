@@ -1,15 +1,25 @@
 import React, {  useState } from 'react'
 
 const Controlled = () => {
+
 const [ password , setPassword] = useState(null)
+
+const [error , setError] = useState('')
 
     const handleSubmit = (e) => {
         e.preventDefault()
         console.log(e.target.name.value)
     }
 const onChangeHandle =(e) =>{
-    console.log(e.target.value)
+    setPassword(e.target.value)
+
+    if(password.length < 8 ){
+        setError("password must be 8 char or longer")
+    }else{
+        setError("")
+    }
 }
+
 
     return (
         <>
@@ -22,6 +32,7 @@ const onChangeHandle =(e) =>{
                 <br />
                 <input type="submit" value="Submit" />
             </form>
+            <p className='text-red-400'>{error}</p>
         </>
     )
 }
