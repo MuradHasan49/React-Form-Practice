@@ -13,9 +13,8 @@ const Sidebar = () => {
         }`;
 
     return (
-        <div className="grid grid-cols-12 min-h-[80vh]">
-
-            <div className="col-span-2 min-h-[85vh] bg-base-100 border-r border-base-300 flex flex-col p-6">
+        <>
+            <div className=" min-h-[85vh] w-80 bg-base-100 border-r border-base-300 flex flex-col p-6">
                 <h2 className="text-2xl font-bold text-center mb-8">Sidebar</h2>
 
                 <div className="flex flex-col gap-3">
@@ -55,19 +54,7 @@ const Sidebar = () => {
                     </button>
                 </div>
             </div>
-
-
-            <div className="col-span-10 bg-base-200 p-10">
-                <h1 className="text-3xl font-black opacity-10 uppercase text-center">Content Area</h1>
-                <div className=" grid grid-cols-3">
-                    <OnSubmit />
-                    <FormAction />
-                    <Controlled />
-                    <Uncontrolled />
-                    <HookForm />
-                </div>
-            </div>
-        </div>
+        </>
     )
 }
 
