@@ -27,7 +27,7 @@ const HookForm = () => {
             )}
                     
                     <div className="form-control gap-4">
-                        <div className="badge badge-outline badge-primary mx-auto">
+                        <div className="badge badge-outline badge-primary mx-auto py-5  text-start ">
                             Typing: {name || "..."}
                         </div>
 

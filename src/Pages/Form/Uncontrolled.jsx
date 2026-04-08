@@ -22,7 +22,7 @@ const Uncontrolled = () => {
             <div className="card w-full max-w-md bg-base-100 shadow-2xl border border-info/20">
                 <div className="card-body">
                     <h2 className="card-title text-3xl font-bold justify-center mb-6 text-info">
-                        Uncontrolled Using Ref
+                        Uncontrolled  Ref
                     </h2>
                                 {submittedData && (
                 <div className="stats shadow bg-info text-info-content w-full max-w-md">
@@ -36,9 +36,7 @@ const Uncontrolled = () => {
 
                     <form onSubmit={handleSubmit} className="flex flex-col gap-5">
                         <div className="form-control">
-                            <label className="label">
-                                <span className="label-text">Full Name</span>
-                            </label>
+
                             <input 
                                 type="text" 
                                 ref={nameRef} 
@@ -50,9 +48,6 @@ const Uncontrolled = () => {
                         </div>
 
                         <div className="form-control">
-                            <label className="label">
-                                <span className="label-text">Email Address</span>
-                            </label>
                             <input 
                                 type="email" 
                                 ref={emailRef} 
