@@ -3,6 +3,7 @@ import OnSubmit from '../Form/OnSubmit'
 import FormAction from '../Form/FormAction'
 import Controlled from '../Form/Controlled'
 import Uncontrolled from '../Form/Uncontrolled'
+import HookForm from '../Form/HookForm'
 
 const Home = () => {
 
@@ -12,7 +13,8 @@ const Home = () => {
                 {/* <OnSubmit/> */}
                 {/* <FormAction/> */}
                 {/* <Controlled/> */}
-                <Uncontrolled/>
+                {/* <Uncontrolled/> */}
+                <HookForm/>
             </div>
         </>
     )
